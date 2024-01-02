@@ -22,9 +22,16 @@ body {
   height: 200px;
 }
 .side-bar {
-  background-color: green;
+  display: grid;
+  background-color: #016a70;
   grid-column: 1/2;
   grid-row: 1/3;
+}
+.side-bar img {
+  height: 50px;
+  width: 50px;
+  fill: white;
+  stroke: white;
 }
 .content {
   background-color: blueviolet;
