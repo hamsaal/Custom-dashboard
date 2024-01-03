@@ -1,5 +1,5 @@
 :root {
-  --row-size: calc(min-content + 20px); /* Entire calculation in a variable */
+  --row-size: calc(min-content + 10px);
 }
 
 * {
@@ -28,33 +28,34 @@ body {
 }
 .side-bar {
   display: grid;
+  grid-template-rows: min-content 1fr 0.5fr;
+  grid-template-columns: max-content;
   background-color: #016a70;
   grid-column: 1/2;
   grid-row: 1/3;
   padding: 16px;
 }
 /* Side Bar elements */
-.side-bar > div {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 40px min-content;
-  gap: 12px;
+.non-sys-links {
+  justify-self: start;
+  align-self: center;
 }
 .side-bar img {
-  height: 30px;
-  width: 30px;
+  height: auto;
+  width: 25px;
   fill: white;
   stroke: white;
 }
-
-.branding-logo img {
-  height: 50px;
-  width: 50px;
+.branding,
+.non-sys-links > div,
+.sys-links > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
-.branding-header {
-  display: grid;
-  grid-template-rows: 
-  align-items: center;
+.non-sys-links > div,
+.sys-links > div {
+  margin-bottom: 10px;
 }
 
 .content {
