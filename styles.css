@@ -71,3 +71,22 @@ body {
   grid-row: 2/3;
   grid-column: 2/3;
 }
+/* Header content */
+.header {
+  height: min-content;
+}
+.header img {
+  height: auto;
+  inline-size: 25px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  color: #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
