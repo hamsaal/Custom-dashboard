@@ -232,3 +232,21 @@ button {
   margin-bottom: 5px;
   padding: 8px;
 }
+.trending {
+  padding: 20px;
+}
+.profiles {
+  background-color: #fbf9f1;
+  padding: 15px;
+  height: max-content;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 9px 10px 3px 0px #888888;
+}
+.profile {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
