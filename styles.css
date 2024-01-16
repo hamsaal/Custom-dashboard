@@ -172,21 +172,41 @@ button {
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
+.content img {
+  width: 20px;
+}
 .projects {
   padding: 16px;
+}
+.projects > h2:first-child {
+  margin-bottom: 10px;
 }
 .cards {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 2px;
+  gap: 10px;
   grid-template-columns: repeat(2, 0.5fr);
 }
+.cards h3 {
+  padding: 10px;
+}
+.cards p {
+  padding: 10px;
+}
 
-.cards div {
-  border: 1px solid black;
+.cards > div {
+  border-left: 10px solid #e3c011;
+  box-shadow: 9px 10px 3px 0px #888888;
+  border-radius: 7px;
   background-color: #fbf9f1;
   margin-bottom: 10px;
-  width: 250px;
-
-  padding: 20px;
+  width: 300px;
+  height: auto;
+  padding: 25px;
+}
+.image-container {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  gap: 15px;
 }
