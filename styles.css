@@ -176,7 +176,7 @@ button {
   width: 20px;
 }
 .projects {
-  padding: 16px;
+  padding: 20px;
 }
 .projects > h2:first-child {
   margin-bottom: 10px;
@@ -209,4 +209,26 @@ button {
   padding: 10px;
   justify-content: flex-end;
   gap: 15px;
+}
+.announcements {
+  padding: 20px;
+}
+.announcement-content {
+  background-color: #fbf9f1;
+  padding: 15px;
+  height: max-content;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 9px 10px 3px 0px #888888;
+}
+.announcement-content h3 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+.announcement-content p {
+  font-size: 0.8em;
+  color: #808080;
+  border-bottom: 0.5px solid #808080;
+  margin-bottom: 5px;
+  padding: 8px;
 }
